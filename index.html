@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regina & Mario</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preload" href="/images/4.svg" as="image">
+</head>
+<body>
+    <div class="contenedor-play">
+        <h1 class="texto-play">¡Dale play a nuestra canción!</h1>
+        <div id="playPauseButton" class="icono-contenedor">
+            <i id="iconoPlayPause" class="fas fa-play"></i>
+        </div>
+        <audio id="audioPlayer" src="/music/(y2save.net) Caf Tacvba Eres Video Oficial .mp3"></audio>
+    </div>
+    <div class="contenedor-central">
+        <h1>¡Nos Casamos!</h1>
+        <h2>Arilis Urízar & Ángel Ovalle</h2>
+        <p>03 . 08 . 2024</p>
+        <div id="contador" class="contador">
+            <div class="unidad">
+                <span id="dias" class="numero"></span>
+                <span class="etiqueta">Días</span>
+            </div>
+            <div class="unidad">
+                <span id="horas" class="numero"></span>
+                <span class="etiqueta">Horas</span>
+            </div>
+            <div class="unidad">
+                <span id="minutos" class="numero"></span>
+                <span class="etiqueta">Minutos</span>
+            </div>
+            <div class="unidad">
+                <span id="segundos" class="numero"></span>
+                <span class="etiqueta">Segundos</span>
+            </div>
+        </div>
+        <h3>Eres lo que más quiero en este mundo, eso eres. Mi pensamiento más profundo también eres...</h3>
+        <div class="galeria">
+            <img src="/images/1.jpg" alt="Descripción" class="imagen-galeria">
+            <img src="/images/2.jpg" alt="Descripción" class="imagen-galeria">
+            <img src="/images/3.jpg" alt="Descripción" class="imagen-galeria">
+            <img src="/images/4.jpg" alt="Descripción" class="imagen-galeria">
+            <img src="/images/5.jpg" alt="Descripción" class="imagen-galeria">
+            <img src="/images/6.jpg" alt="Descripción" class="imagen-galeria">
+        </div>
+        <div class="contenedor-cards">
+            <div class="card" id="card1">
+                <img src="/icons/church.svg" class="icon" alt="icono-ceremonia">
+                <h1>Ceremonia</h1>
+                <h2>Catedral Metropolitana de Santiago de Guatemala</h2>
+                <h3>7A Avenida 6-73, Cdad. de Guatemala</h3>
+                <h4>16:00 hrs</h4>
+                <a class="boton" href="https://maps.app.goo.gl/NUmo1vYry8aRKabg9" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+            </div>
+            <div class="card" id="card2">
+                <img src="/icons/rings.svg" class="icon" alt="icono-fiesta">
+                <h1>Celebremos juntos</h1>
+                <h2>The Westin Camino Real Guatemala</h2>
+                <h3>14 Calle 0-20, Cdad. de Guatemala</h3>
+                <h4>18:00 hrs</h4>
+                <a class="boton" href="https://maps.app.goo.gl/ZgWQP2iM4NF29K9p7" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+            </div>
+            <div class="card" id="card3">
+                <img src="/icons/gift.svg" class="icon" alt="icono-regalo">
+                <h1>Lluvia de Sobres</h1>
+                <h2>Lo que más queremos es compartir contigo nuestro gran día, pero si deseas regalarnos algo habrá un cofre en la entrada para que puedas dejar tu sobre con efectivo.</h2>
+            </div>
+            <div class="card" id="card4">
+                <img src="/icons/dress-code.svg" class="icon" alt="icono-dresscode">
+                <h1>Dresscode</h1>
+                <h2>Viste elegante y no olvides abrigarte muy bien. Hemos reservado el color blanco y el corinto, agradecemos que uses otro color y seas parte de nuestro gran día.</h2>
+            </div>
+            <div class="card" id="card5">
+                <img src="/icons/music.svg" class="icon" alt="icono-musica">
+                <h1>Playlist</h1>
+                <h2>Nos encantaría que nos sugieras esas canciones que sabes que son geniales y no pueden faltar en nuestra boda.</h2>
+                <a href="https://open.spotify.com/playlist/2FwDzhwy2KUAZQRUdGDI3a?si=7d18da97f0534bb4" class="boton" target="_blank" rel="noopener noreferrer">Agrega canciones</a>
+            </div>
+            <div class="card" id="card6">
+                <img src="/icons/camera.svg" class="icon" alt="icono-filtro">
+                <h1>Filtro</h1>
+                <h2>Toma tus historias para Instagram usando nuestros filtros, y no olvides etiquetarnos y usar #secasanrenataymario.</h2>
+                <a href="https://www.instagram.com/ar/251150787453809" class="boton" target="_blank" rel="noopener noreferrer">Toma una Historia</a>
+            </div>
+            <div class="card" id="card7">
+                <img src="/icons/rsvp.svg" class="icon" alt="icono-asistencia">
+                <h1>Confirmación</h1>
+                <h2>Confirma tu asistencia lo antes posible, indícanos el nombre de tu acompañante o acompañantes, y si tienes alguna restricción alimenticia.</h2>
+                <a href="https://forms.gle/jBDqWaCyHws2Ddr19" class="boton" target="_blank" rel="noopener noreferrer">Confirma tu asistencia</a>
+            </div>
+            <div class="card" id="card8">
+                <img class="imagen-card" src="/images/v1.jpg" alt="foto-vertical-de-pareja">
+            </div>
+        </div>
+        <h4>¡Te esperamos con mucho cariño!</h4>
+        <h5>Arilis Urízar & Ángel Ovalle</h5>
+        <h6>Elaborado por @thetwodesign</h6>
+    </div>
+    <script src="https://kit.fontawesome.com/8435ad2454.js" crossorigin="anonymous" defer></script>
+    <script src="/Js/musica.js" defer></script>
+    <script src="/Js/galeria.js" defer></script>
+    <script src="/Js/animacioncards.js" defer></script>
+    <script src="/Js/contador.js" defer></script>
+</body>
+</html>
