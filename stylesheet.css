@@ -348,13 +348,6 @@ h6 {
         width: 30%;
     }
 
-    .card h1,
-    .card h2,
-    .card h3,
-    .card h4 {
-        color: white;
-    }
-
     .galeria {
         grid-template-columns: 1fr;
     }
@@ -364,7 +357,7 @@ h6 {
     }
     .card h1{
         color: midnightblue;
-        font-size: 30px;
+        font-size: 36px;
         margin-bottom: 20px;
     }
     .card h2{
