@@ -313,7 +313,7 @@ h6 {
     }
 
     .contenedor-central h2 {
-        font-size: 36px;
+        font-size: 62px;
         margin-top: -20px;
     }
 
@@ -379,13 +379,14 @@ h6 {
     }
 
     h5 {
-        font-size: 36px;
+        font-size: 62px;
         margin-top: -20px;
+        margin-bottom: 0;
     }
 
     h6 {
         font-size: 15px;
-        margin-top: -60px;
+        margin-top: 0
     }
 }
 
