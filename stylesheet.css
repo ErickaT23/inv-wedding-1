@@ -16,7 +16,7 @@ body {
     margin: 0;
     padding: 20px;
     line-height: 1.6;
-    background-image: url(/images/FONDOS-INVITACIONES-R-C\ \(1080\ x\ 1920\ px\)\ \(1\).png);
+    background-image: url(/images/FONDOS-INVITACIONES-R-C\ \(1080\ x\ 1920\ px\)\ \(1\).webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -344,11 +344,13 @@ h6 {
     .card img {
         width: 30%;
     }
-
     .galeria {
         grid-template-columns: 1fr;
     }
 
+    .contenedor-cards {
+        grid-template-columns: 1fr;
+    }
     .contenedor-cards {
         grid-template-columns: 1fr;
     }
@@ -395,5 +397,8 @@ h6 {
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         justify-items: center;
+    }
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
