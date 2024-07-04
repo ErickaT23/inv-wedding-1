@@ -329,14 +329,11 @@ h6 {
     }
 
     .numero {
-        font-size: 32px;
-        padding: 10px;
+        font-size: 1.8em; /* Ajusta el tamaño según sea necesario */
     }
 
     .etiqueta {
-        font-size: 15px;
-        padding: 10px;
-        margin-top: -30px;
+        font-size: 0.8em; /* Ajusta el tamaño según sea necesario */
     }
 
     .contenedor-central h3 {
