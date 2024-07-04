@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #333;
-    --secondary-color: #DAA520; 
+    --primary-color: midnightblue;
     --highlight-color: aliceblue;
+    --button-color:DarkGoldenrod;
     --font-family-main: 'Garamond', serif;
     --font-family-secondary: 'Great Vibes', cursive;
     --card-width: 290px;
@@ -41,7 +41,7 @@ a:hover {
 
 .contenedor-play h1 {
     font-family: var(--font-family-secondary);
-    color: white;
+    color: azure;
     font-size: 30px;
     font-weight: 100;
     margin-top: 5px;
@@ -55,8 +55,8 @@ a:hover {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: var(--secondary-color);
-    color: white;
+    background: white;
+    color: goldenrod;
 }
 
 .icono-contenedor i {
@@ -67,28 +67,39 @@ a:hover {
     text-align: center;
     max-width: 800px;
     margin: auto;
-    padding: 20px;
+    padding: 0;
 }
 
 .contenedor-central h1 {
     font-family: var(--font-family-secondary);
-    margin-top: -10px;
+    margin-top: 10px;
     font-size: 70px;
-    color: white;
+    color: azure;
     font-weight: 100;
 }
 
 .contenedor-central h2 {
     font-family: var(--font-family-secondary);
-    color: var(--secondary-color);
     font-size: 80px;
     margin-top: -50px;
     font-weight: 200;
+    background: linear-gradient(to right, #b29a68, #d4af37, #ffd700, #d4af37, #b29a68);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shine 1.5s infinite linear;
 }
 
+@keyframes shine {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
 .contenedor-central p {
     font-family: var(--font-family-secondary);
-    color: white;
+    color: azure;
     font-size: 50px;
     margin-top: -70px;
 }
@@ -117,21 +128,27 @@ a:hover {
 
 .numero {
     font-size: 2.5em;
-    color: midnightblue;
     margin-bottom: 5px;
+    background: linear-gradient(to right, #b29a68, #d4af37, #ffd700, #d4af37, #b29a68);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shine 1.5s infinite linear;
 }
 
 .etiqueta {
     font-size: 1em;
-    color: midnightblue;
+    color: var(--button-color);
     text-transform: none;
-    font-weight: 600;
-    font-family: var(--font-family-main);
+    font-weight: 400;
+    background: linear-gradient(to right, #b29a68, #d4af37, #ffd700, #d4af37, #b29a68);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shine 1.5s infinite linear;
 }
 
 .contenedor-central h3 {
     font-family: var(--font-family-main);
-    color: white;
+    color:  azure;
     font-size: 30px;
     margin: 40px;
     font-weight: 400;
@@ -222,11 +239,11 @@ a:hover {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: var(--secondary-color);
-    color: white;
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
+    background: linear-gradient(to right, #b29a68, #d4af37, #ffd700, #d4af37, #b29a68);
+    color: white;
 }
 
 .card:hover {
@@ -270,10 +287,13 @@ h4 {
 
 h5 {
     font-family: var(--font-family-secondary);
-    color: var(--secondary-color);
     font-size: 80px;
     margin-top: -60px;
     font-weight: 200;
+    background: linear-gradient(to right, #b29a68, #d4af37, #ffd700, #d4af37, #b29a68);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shine 1.5s infinite linear;
 }
 
 h6 {
@@ -287,8 +307,8 @@ h6 {
 
 @media (max-width: 768px) {
     .contenedor-central h1 {
-        margin-top: 0;
-        font-size: 35px;
+        margin-top: 15;
+        font-size: 32px;
         font-weight: 200;
     }
 
@@ -303,8 +323,9 @@ h6 {
     }
 
     .unidad {
-        width: 100px;
-        height: 100px;
+        width: 80px; /* Ajusta el tamaño según sea necesario */
+        height: 80px; /* Ajusta el tamaño según sea necesario */
+        margin: 5px;
     }
 
     .numero {
@@ -364,12 +385,12 @@ h6 {
     }
     
     h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     h5 {
         font-size: 36px;
-        margin-top: -30px;
+        margin-top: -20px;
     }
 
     h6 {
