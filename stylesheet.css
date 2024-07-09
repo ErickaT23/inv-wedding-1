@@ -333,8 +333,9 @@ h5 {
 h6{
     font-family: var(--font-family-secondary);
     font-size: 45px;
-    margin-bottom: -120px;
     color: midnightblue;
+    margin-bottom: 5px;
+    margin-top: 60px;
 }
 .empresa-logo {
     text-align: center;
@@ -454,8 +455,9 @@ h6{
     h6{
         font-family: var(--font-family-secondary);
         font-size: 45px;
-        margin-bottom: -120px;
         color: midnightblue;
+        margin-bottom: 5px;
+        margin-top: 60px;
     }
 }
 
