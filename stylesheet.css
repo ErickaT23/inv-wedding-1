@@ -1,23 +1,79 @@
 :root {
     --primary-color: midnightblue;
     --highlight-color: aliceblue;
-    --button-color:DarkGoldenrod;
+    --button-color: DarkGoldenrod;
     --font-family-main: 'Garamond', serif;
     --font-family-secondary: 'Great Vibes', cursive;
     --card-width: 290px;
     --card-height: 440px;
 }
-body {
+body{
     font-family: var(--font-family-main);
     font-weight: 300;
     color: var(--primary-color);
     background-color: var(--bg-color);
-    margin: 0;
-    padding: 20px;
+    margin: 5px 5px 5px 5px;
     line-height: 1.6;
-    background-image: url(/images/FONDOS-INVITACIONES-R-C\ \(1080\ x\ 1920\ px\)\ \(1\).webp);
+    background-image: url('/images/FONDOS-INVITACIONES-R-C (1080 x 1920 px) (1).webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; /* Esto asegura que cubra toda la altura del viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#initials {
+    animation: heartbeat 1.5s infinite;
+    font-family: var(--font-family-main);
+    font-size: 200px;
+    font-weight: 200;
+    background: linear-gradient(to right, #b29a68, #d4af37, #ffd700, #d4af37, #b29a68);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+}
+#hover-text {
+    position: absolute;
+    bottom: 350px;  /* Ajusta esta propiedad para cambiar la distancia vertical desde #initials */
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    font-family: var(--font-family-main);
+    opacity: 1;  /* Siempre visible */
+    white-space: nowrap;
+    pointer-events: none;  /* Evita que el texto interfiera con el clic */
+    padding: 10px 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
 }
 a {
     color: var(--primary-color);
@@ -188,6 +244,7 @@ a:hover {
     width: var(--card-width);
     height: var(--card-height);
 }
+
 .icon {
     width: 40%;
     height: auto;
@@ -275,6 +332,21 @@ h5 {
     height: auto;
 }
 @media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+        #initials {
+            font-size: 120px; /* Reducir el tamaño de la fuente para pantallas pequeñas */
+            padding: 10px;
+        }
+    
+        #hover-text {
+            font-size: 16px; /* Ajustar el tamaño del texto para mantener la proporción */
+            padding: 8px 16px;
+            bottom: 310px; /* Ajustar la posición para pantallas pequeñas */
+            margin: 0 0 0 0;
+        }
     .contenedor-central h1 {
         margin-top: 20px;
         font-size: 32px;
