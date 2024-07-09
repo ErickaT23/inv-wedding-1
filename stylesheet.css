@@ -52,7 +52,7 @@ body{
 }
 #hover-text {
     position: absolute;
-    bottom: 350px;  /* Ajusta esta propiedad para cambiar la distancia vertical desde #initials */
+    bottom: 250px;  /* Ajusta esta propiedad para cambiar la distancia vertical desde #initials */
     transform: translateX(-50%);
     color: white;
     font-size: 20px;
@@ -344,7 +344,7 @@ h5 {
         #hover-text {
             font-size: 16px; /* Ajustar el tamaño del texto para mantener la proporción */
             padding: 8px 16px;
-            bottom: 290px; /* Ajustar la posición para pantallas pequeñas */
+            bottom: 250px; /* Ajustar la posición para pantallas pequeñas */
             margin: 0 0 0 0;
         }
     .contenedor-central h1 {
