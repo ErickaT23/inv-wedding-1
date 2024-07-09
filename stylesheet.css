@@ -373,10 +373,9 @@ h5 {
     }
 
     .contenedor-central p {
-        font-size: 20px;
+        font-size: 30px;
         margin-top: 0;
         margin-bottom: 0;
-        color: midnightblue;
     }
     
     .contenedor-central h5{
@@ -437,6 +436,11 @@ h5 {
         color: midnightblue;
         font-size: 16px;
         margin-top: 10px;
+    }
+    .card p{
+        color: midnightblue;
+        font-size: 30px;
+        margin-bottom: 5px;
     }
 }
 
