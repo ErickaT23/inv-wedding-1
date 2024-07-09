@@ -373,9 +373,10 @@ h5 {
     }
 
     .contenedor-central p {
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 0;
         margin-bottom: 0;
+        color: midnightblue;
     }
     
     .contenedor-central h5{
