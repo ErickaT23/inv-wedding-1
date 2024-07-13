@@ -76,7 +76,10 @@ const invitados = [
     { nombre: "Fam. López Velásquez", adultos: 2, ninos: 1 },
     { nombre: "Fam. Alvarado Samayoa", adultos: 4, ninos: 0 },
     { nombre: "Fam. Rosales Gámez", adultos: 2, ninos: 0 },
-    { nombre: "Rolando Oliva", adultos: 1, ninos: 0 }
+    { nombre: "Rolando Oliva", adultos: 1, ninos: 0 },
+    { nombre: "Fernando Segura", adultos: 2, ninos: 0 },
+    { nombre: "Juan Diego Echeverría", adultos: 2, ninos: 1 },
+    { nombre: "Daniel Pérez", adultos: 2, ninos: 0 }
 ];
 
 export default invitados;
